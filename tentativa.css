@@ -1,0 +1,365 @@
+/*R E S E T*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*E N D    O F   R E S E T*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    width: 99%;
+}
+html {
+    width: 100%;
+}
+
+/*H E A D E R*/
+.page_header {
+    background-color: #FF5858;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: absolute;
+    
+}
+
+#logo {
+   width: 100%;
+    max-width: 669px;
+    min-width: 350px;
+    margin-left: 2.73%;
+    margin-bottom: 1.98%;
+    position:fixed;
+}
+#logo_small { display: none;}
+
+#linhas {
+    width: 42.87%;
+    max-width: 439px;
+    min-width: 370px;
+    margin-left: 5px;
+    .float: left;
+    display: inline;
+}
+
+.portfolio {
+color: #FEB5A4;	font-family: "Roboto Condensed";
+    font-weight: bold;	letter-spacing: 1px;	line-height: 35px;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        margin-left:69.92%;
+    padding-top: 0.79%;
+    display: inline-block;
+    position: fixed;
+}
+
+.project_title {
+    .background-color: firebrick;
+    text-align: center;
+    .padding-left: 30.76%;
+    padding-top: 80px;
+    padding-bottom: 46px;
+    margin-left: auto;
+    .margin-right: auto;
+    display: inline-block;
+}
+.project_description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding-left: 22.17%;
+    padding-right: 22.17%;
+    max-width: 667px;
+    text-align: left;
+    min-width: 300px;
+}
+.project_final_information {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    top: 8px;
+  left: 16px;
+    float: left;
+    text-align: left;
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 3.13px;
+}
+
+h1 {
+    height: 94px;
+    .width: 395px;
+    color: #5F9595;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 94px;
+}
+
+h2 {
+    height: 24px;
+    .width: 360px;
+    color: #FEB5A4;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.page_footer {
+    background-color: #FF5858;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+}
+
+/* N E V E R . A G A I N */
+#never_again_img_1 {
+    width: 100%
+}
+#never_again_img_2 {
+    max-width: 1024px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 80%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+#never_again_img_3 {
+    amax-width: 1024px;
+    display: block;
+    width: 100%;
+}
+.grelha_tres {
+	.height: 500px;
+	background-color: #ECF7F6;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 7.91%;
+    padding-top: 46px;
+    padding-right: 7.91%;
+    padding-bottom: 46px;
+    .display: flex;
+}
+.grid_item {
+    margin-right: 1.76%;
+    .background-color: dodgerblue;
+    margin-bottom: 18px;
+    .height: 6.18%;
+    .width: 26.86%;
+    max-width: 275px;
+}
+.grid_image{
+    max-width: 275px;
+    width: 100%;
+}
+
+
+/* M O B I L E */
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+  }
+    .portfolio {
+        	height: 2.4%;	width: 20%;	font-size: 14px;
+        letter-spacing: 1px;	line-height: 16px;
+        margin-left:37%;
+        
+        /*make this stop resizing the margin at certain point, bc otherwise goes on top of the logo*/
+    }
+    #logo {
+        display: none;
+    }
+    #logo_small {
+         width: 60.53%;
+    max-width: 227px;
+    margin-left: 2.73%;
+    margin-bottom: 1.98%;
+    position:fixed;
+        display: block;
+    }
+    h1 {
+        height: 8.7%;
+        font-size: 50px;
+        line-height: 58px;
+    }
+    h2 {
+        height: 2.4%;
+        font-size: 14px;	line-height: 16px;
+    }
+    .project_description {
+        height: 17.99%;	.width: 79.73%;	font-size: 13px;	line-height: 15px;
+        padding-left: 10.13%;
+        padding-right: 10.13%;
+    }
+    .grelha_tres {
+        grid-template-columns: auto auto;
+    }
+    .grid_item {
+        margin-right: 5%;
+    }
+    .project_final_information {
+        height: 21.59%;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 13px;
+    }
+    
+    #business_card_info {
+    height: 100px;
+    .background-color: white;
+}
+
+/* F R E E D O M */
+
+#freedom_img_1 {
+    width: 100%
+}
+.grelha_dois {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 7.91%;
+    padding-top: 46px;
+    padding-right: 7.91%;
+    padding-bottom: 46px;
+}
+.grid_item_dois{
+     margin-right: 1.76%;
+    margin-bottom: 18px;
+    .height: 6.18%;
+    .width: 26.86%;
+    max-width: 275px;
+}
+.grid_image_dois{
+    max-width: 423px;
+    width: 100%;
+}
+#freedom_img_2{
+    	width: 83.08%;
+    .padding-left: 7.91%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+/* B U S I N E S S    C A R D */
+#business_card_img_1 {
+    width: 100%;
+}
+#business_card_img_2{
+    	width: 83.08%;
+    .padding-left: 7.91%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+#business_card_info {
+    height: 208px;
+    .background-color: white;
+}
+
+/* W O N D E R */
+#wonder_img_1 {
+    	width: 83.08%;
+    .padding-left: 7.91%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+#wonder_img_2{
+        width: 100%;    
+}
+
+/* C L E A N   A I R */
+#clean_air_img_1{
+            width: 100%;    
+}
+#clean_air_img_2 {
+    width: 33.79%;
+    margin-left: 33.11%;
+    margin-right: 33.11%;
+}
+.grelha_seis {
+	.height: 500px;
+	background-color: #F5D1C3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding-left: 7.91%;
+    padding-top: 46px;
+    padding-right: 7.91%;
+    padding-bottom: 46px;
+    .display: flex;
+}
+.grid_item_seis{
+     margin-right: 11%;
+    margin-bottom: 20px;
+    .height: 6.18%;
+    .width: 11.62%;
+    max-width: 275px;
+}
+
+/* F O R   A L L */
+#grelha_for_all {
+    	.height: 500px;
+	background-color: #ECF7F6;
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-left: 7.91%;
+    padding-top: 46px;
+    padding-right: 7.91%;
+    padding-bottom: 46px;
+    .display: flex;
+    grid-gap: 1.66%;
+}
+.poster_for_all {
+        width: 100%;
+    }
+    
+/* N I B A L O */
+.nibalo_img_1 {
+        width: 50%;
+    }
