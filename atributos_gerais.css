@@ -331,6 +331,26 @@ h2 {
 .poster_for_all {
         width: 100%;
     }
+.storyboard {
+    width: 100%;
+    margin-bottom: 46px;
+    margin-top: 46px;
+}
+#mesa {
+    width: 40.63%;
+    margin-right: 2.44%;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 240px;
+}
+#texto_mesa {
+    float: right;
+    text-align: left;
+    margin-top: 46px;
+    width: 100%;
+    margin-right: 7%;
+    margin-left: 7%;
+}
     
 /* N I B A L O */
 .nibalo_img_1 {
