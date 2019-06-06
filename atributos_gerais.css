@@ -425,9 +425,7 @@ font-size: 20px;}
 
 /* M O B I L E */
 @media only screen and (max-width: 600px) {
-    body {
-    background-color: lightblue;
-  }
+
     .portfolio {
         	height: 2.4%;	width: 20%;	font-size: 14px;
         letter-spacing: 1px;	line-height: 16px;
